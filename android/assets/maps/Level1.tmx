@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="69" height="24" tilewidth="16" tileheight="16" nextobjectid="470">
+ <tileset firstgid="1" name="backgroundTileset" tilewidth="16" tileheight="16" tilecount="16" columns="4">
+  <image source="backgroundTileset.png" width="64" height="64"/>
+ </tileset>
+ <tileset firstgid="17" name="groundTileset" tilewidth="16" tileheight="16" tilecount="16" columns="4">
+  <image source="groundTileset.png" width="64" height="64"/>
+ </tileset>
+ <tileset firstgid="33" name="treeTileset" tilewidth="16" tileheight="16" tilecount="16" columns="4">
+  <image source="treeTileset.png" width="64" height="64"/>
+ </tileset>
+ <tileset firstgid="49" name="shrubTileset" tilewidth="16" tileheight="16" tilecount="16" columns="4">
+  <image source="shrubTileset.png" width="64" height="64"/>
+ </tileset>
+ <tileset firstgid="65" name="tutTiles" tilewidth="16" tileheight="16" tilecount="16" columns="4">
+  <image source="tutTiles.png" width="64" height="64"/>
+ </tileset>
+ <layer name="Background" width="69" height="24">
+  <data encoding="base64" compression="zlib">
+   eJyNme3OqzAMgwMUyv1f8XknzZJ56rDzo9pG23w4jgvsqKrtbxx/Y/9+bjb8+o5xfMfAvmlzXJt87ZjbwpzsbGF85u8Qs/aPEJvmfZ/HMeDv8/20PDwf3zcDRm6HOGxfu8w15eF+d8zJjtvfMM/6EWfuucN1909fd611lZ3P76upc+LHCL48tqtWHFiXjkcdtqwZ19xYc1neHqvHnnyqToyZcXscs9b4WEPW2mvA/ZzzGl/1xGXWipnnzf7wepJvzM37l3UkbrxOXqa8HTvWM+HP2qdeS/Xa4DdxNHGVvphP1yPUJu5hboxhwLbql3qRed/1xJLxUAvf6pd4nHqiqxG5nDQ3nWNJE8ifpO8JyzdfHuNpuFOzL/jmWZF4M8K8bKqHZbfTfGpC0teUczpjun7o8KfmKnbNe+wn1hML8iHpyC9MEyap/xNvUx6sf9JBfmcd/N7l03cTNlIsnb56nLq/ofakviIG9Jl4IU53Z9ObX7/u92cafj6dteLb9W2qceJG1++d/tBW6rOEZdKNTr/92lnPs9fX3cBshv1dD9/BH+9VfG2XM7Hqat1pC3FJ+uE5MG73NTDPZ5NZKxa/NIB87fqc+Xf6mXTNOe41HljLPmZPssauJ9IB+TqDT8aRcOj0P/WXx5/OC9ephFHXR2+8JvfUF/7btUWc6nqcGsk6+xnf1YTxEB/v506XExe9xnzuSvG/xSKcOj1+00GeP9RT/b5gr9PXpI3S/8Q/avBVa75uv8un62tyLdkkZ2mbmtvxO+XDmMiHUWs9qI+MuauV98ZbXbweXtsUu/eh67hsHLD5K+/Ey+SXtfM+93vwxKOk6Y4XdYy8JmfcLzX6f/if5lMsv3ow1Yi5MifqxF7rMzxr4Njyft7rOMJ+5uYcJxaJB29Yaq1z0c+H2z55r0Ed7eqSYnBszq9Pncfe9zxPEvbJFzVdw9/3uM2r1pySBlG/Oz3le6WOn4x3t1gm7CduMxcN8jW9n0z5cp/7H+G6elZ6IjsX1qUzm/71/Jty0RAmikXvFYb5TeeT1+pNG922c10+jnr2nmJI58pe63uKEa4dZlfPN35mJz2ftl6Y6LtsaJDD7pf/XxA7P394v3JXxjHpcupP4ZqeY+Vb+YgHbt/3zXqeoZ9r/wCwKg/c
+  </data>
+ </layer>
+ <layer name="Foreground" width="69" height="24">
+  <data encoding="base64" compression="zlib">
+   eJztWFuOgzAMDBIXWNp98EH3/rfcImF1OrUdQxKWqh3JKiixXSaJPZDS/+Gy2Bs3vDl5xJTqctIttrdvTTwzJ6UcWv7TYtH5H1c7LXZ2xgdlvEuPcXH+ALEjaMVJq3xeTIw7pttelfX5DcYTPteuDa6r5W/F02JGudL2g+yDAQy5kOscJxJL+oO2z0cYj3K8FTlOuqTvhyi8+sZcHAXenpTxwRnPQVt3yWntiRroG8WtAavmC1rUuT4dmxPrXJSeyWeGcII1/kT3a87lnv3W8y2Ji/0H+woa8pbjp5QTue9T/oy15qQUuV5gzWe9wpywD2tNr+9oYxGuanGyVp+gdsT5rKvOik9OW2Fs5m5PTo4EWR/mD2ujx83R9FhLYN30zl5On7wCWHcgJ6+oRWYwJ6jfa3DixZjr55pal8uxxV/zw36G73dS671vMFvezzGv5MrVuGiOLTHYdzbt+wnWZ+5t0fysHfgX69uU7jXyz9W+AvaZ7rUJ57Pys6bhMUur8v/V9D1f47OMTmzWyReaO6/Dd8C4x7L2tvLwHrCen33/AMGIH/g=
+  </data>
+ </layer>
+ <objectgroup name="Inanimate">
+  <object id="291" x="0" y="368" width="224" height="16"/>
+  <object id="292" x="256" y="352" width="256" height="32"/>
+  <object id="294" x="656" y="352" width="448" height="32"/>
+  <object id="295" x="1072" y="64" width="32" height="288"/>
+  <object id="296" x="1008" y="320" width="64" height="32"/>
+  <object id="306" x="656" y="224" width="96" height="32"/>
+  <object id="307" x="544" y="240" width="80" height="16"/>
+  <object id="308" x="448" y="224" width="64" height="32"/>
+  <object id="310" x="256" y="224" width="64" height="32"/>
+  <object id="341" x="48" y="144" width="64" height="16"/>
+  <object id="342" x="80" y="128" width="64" height="16"/>
+  <object id="344" x="112" y="112" width="80" height="16"/>
+  <object id="345" x="144" y="96" width="48" height="16"/>
+  <object id="346" x="256" y="96" width="64" height="32"/>
+  <object id="347" x="368" y="96" width="80" height="16"/>
+  <object id="348" x="576" y="96" width="80" height="16"/>
+  <object id="356" x="0" y="208" width="192" height="16"/>
+  <object id="357" x="0" y="192" width="144" height="16"/>
+  <object id="358" x="688" y="128" width="64" height="16"/>
+  <object id="359" x="688" y="64" width="64" height="16"/>
+  <object id="361" x="816" y="64" width="64" height="16"/>
+  <object id="362" x="816" y="128" width="64" height="16"/>
+  <object id="363" x="912" y="96" width="160" height="16"/>
+  <object id="364" x="1008" y="64" width="64" height="32"/>
+  <object id="379" x="384" y="336" width="64" height="16"/>
+  <object id="380" x="400" y="320" width="32" height="16"/>
+  <object id="417" x="-16" y="0" width="16" height="224"/>
+  <object id="426" x="816" y="224" width="48" height="48"/>
+  <object id="428" x="864" y="240" width="48" height="32"/>
+  <object id="429" x="912" y="256" width="48" height="32"/>
+  <object id="430" x="960" y="272" width="48" height="16"/>
+  <object id="431" x="0" y="336" width="48" height="32"/>
+  <object id="466" x="496" y="0" width="32" height="80"/>
+ </objectgroup>
+ <objectgroup name="KillerWater">
+  <object id="317" x="224" y="384" width="16" height="16"/>
+  <object id="319" x="240" y="384" width="16" height="16"/>
+  <object id="320" x="512" y="384" width="16" height="16"/>
+  <object id="321" x="528" y="384" width="16" height="16"/>
+  <object id="322" x="544" y="384" width="16" height="16"/>
+  <object id="323" x="560" y="384" width="16" height="16"/>
+  <object id="324" x="592" y="384" width="16" height="16"/>
+  <object id="325" x="576" y="384" width="16" height="16"/>
+  <object id="326" x="608" y="384" width="16" height="16"/>
+  <object id="327" x="624" y="384" width="16" height="16"/>
+  <object id="328" x="640" y="384" width="16" height="16"/>
+ </objectgroup>
+ <objectgroup name="KillerCoinDown">
+  <object id="330" x="880" y="272" width="16" height="16"/>
+  <object id="331" x="848" y="272" width="16" height="16"/>
+  <object id="332" x="816" y="272" width="16" height="16"/>
+  <object id="435" x="144" y="32" width="16" height="16"/>
+  <object id="436" x="176" y="32" width="16" height="16"/>
+  <object id="439" x="672" y="160" width="16" height="16"/>
+  <object id="440" x="720" y="160" width="16" height="16"/>
+  <object id="448" x="448" y="256" width="16" height="16"/>
+  <object id="450" x="496" y="256" width="16" height="16"/>
+  <object id="452" x="656" y="256" width="16" height="16"/>
+  <object id="459" x="1008" y="240" width="16" height="16"/>
+  <object id="460" x="1056" y="240" width="16" height="16"/>
+  <object id="461" x="736" y="16" width="16" height="16"/>
+  <object id="462" x="864" y="16" width="16" height="16"/>
+  <object id="464" x="736" y="80" width="16" height="16"/>
+ </objectgroup>
+ <objectgroup name="KillerCoinUp">
+  <object id="335" x="352" y="208" width="16" height="16"/>
+  <object id="337" x="400" y="208" width="16" height="16"/>
+  <object id="455" x="736" y="256" width="16" height="16"/>
+  <object id="463" x="864" y="80" width="16" height="16"/>
+ </objectgroup>
+ <objectgroup name="PreviousLevel">
+  <object id="418" x="-16" y="336" width="16" height="16"/>
+  <object id="419" x="-16" y="320" width="16" height="16"/>
+  <object id="420" x="-16" y="304" width="16" height="16"/>
+  <object id="421" x="-16" y="288" width="16" height="16"/>
+  <object id="422" x="-16" y="272" width="16" height="16"/>
+  <object id="423" x="-16" y="256" width="16" height="16"/>
+  <object id="424" x="-16" y="240" width="16" height="16"/>
+  <object id="425" x="-16" y="224" width="16" height="16"/>
+ </objectgroup>
+ <objectgroup name="NextLevel">
+  <object id="381" x="1104" y="48" width="16" height="16"/>
+  <object id="382" x="1104" y="32" width="16" height="16"/>
+  <object id="383" x="1104" y="16" width="16" height="16"/>
+  <object id="384" x="1104" y="0" width="16" height="16"/>
+ </objectgroup>
+</map>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="69" height="24" tilewidth="16" tileheight="16" nextobjectid="453">
+ <tileset firstgid="1" name="backgroundTileset" tilewidth="16" tileheight="16" tilecount="16" columns="4">
+  <image source="backgroundTileset.png" width="64" height="64"/>
+ </tileset>
+ <tileset firstgid="17" name="groundTileset" tilewidth="16" tileheight="16" tilecount="16" columns="4">
+  <image source="groundTileset.png" width="64" height="64"/>
+ </tileset>
+ <tileset firstgid="33" name="treeTileset" tilewidth="16" tileheight="16" tilecount="16" columns="4">
+  <image source="treeTileset.png" width="64" height="64"/>
+ </tileset>
+ <tileset firstgid="49" name="shrubTileset" tilewidth="16" tileheight="16" tilecount="16" columns="4">
+  <image source="shrubTileset.png" width="64" height="64"/>
+ </tileset>
+ <layer name="Background" width="69" height="24">
+  <data encoding="base64" compression="zlib">
+   eJzFWNuuhCAMRFzU///ik5PQbNMM7RTRfWiMLNJhphfYTyll6/ZRZt892xNztZ3kvNafxwIcu7O3vWOqyqe2K4F3lhP2O4a7usjn2feE+Ec8zWJBOA5HL5YHvS7LSaR3Jj/Q3BGfK2MksxYT257f1o1ZR/iw+5dYYvMMffumVVLDjM52bhRnbA1ldUTreRisVnWg367Wups7URzMcMLazNpRbGrNvfokvi2/9t36e5KPrG3miThA7xFvI8vU+xGHs2tkDPmY0U1igckb7XN1/cycPZCOFex/VLcyNQLh8jjzNMj2KbQW08tZLhH+lWeFlTZ79rljrF4rOUP7fFsTiR+UTzNnrRnz7lxvchHVuY3E9GRPyORGdDeO1op6jNyXmV5kff2q9ggnKOae0o3t1dY/m3+jc/VIh8v4WJnn1TyRZXvpjGX+K6kG7x0sGS6v7usE341yE/E62y9XxTv7H8xmxpBGtY/XYF1tqG6P9Lexfyd2kDF3FYm5CJvsvyleEO8R3t3M13ydA4xRbHm9EuUPc3fVelvt5TzS1Dcau53P5PBoD6t6k621WtsI31H8M9hWvrVb1/BTPY9AJxSrUS1BeKJc1diQ1tK/vNop+XAVHEu6BzY1pn/TZ13LC6MJG1+Ic+FIdBGsHt/NzLW19H9caqX2Kfdm8dmMf8HzB4p5Go8=
+  </data>
+ </layer>
+ <layer name="Foreground" width="69" height="24">
+  <data encoding="base64" compression="zlib">
+   eJzt0UEOgCAMRFHOgGu8/zFx4YJMOrRGEzf/JU0QcGigNQAAAAAAAAAA/tGljkJV972p/uFZmpFljqvOu9Zx9VvndM3lr2tZD+6cEWRF2U/yo56ivbtM9192h9pztSf3FpW3cfemGRMtARUK
+  </data>
+ </layer>
+ <objectgroup name="Inanimate">
+  <object id="449" x="0" y="336" width="1104" height="48"/>
+ </objectgroup>
+ <objectgroup name="NextLevel">
+  <object id="452" x="880" y="320" width="16" height="16"/>
+ </objectgroup>
+</map>
